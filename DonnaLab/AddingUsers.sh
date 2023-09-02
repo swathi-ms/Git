@@ -21,7 +21,8 @@ rmdir 2024
 tree
 rmdir Audit/2023/2024 Benefits/2023/2024 Management/2023/2024 Payroll/2023/2024 Policies/2023/2024
 tree
-cd ~/Git/DonnaLab/
+cd ~
+cd Git/DonnaLab/
 mkdir PlanetGreen/Earth/Finance
 tree
 cd PlanetGreen/Earth/Finance/Expense\ Reports/
