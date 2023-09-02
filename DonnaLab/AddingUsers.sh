@@ -1,6 +1,6 @@
 echo "in the .sh. Making Directories and adding users."
 
-#sudo yum install  tree
+sudo yum install  tree
 
 mkdir PlanetGreen
 mkdir -p PlanetGreen/Earth
