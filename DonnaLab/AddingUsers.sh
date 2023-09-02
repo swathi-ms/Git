@@ -27,7 +27,10 @@ mkdir PlanetGreen/Earth/Finance
 mkdir PlanetGreen/Earth/Finance/Management  PlanetGreen/Earth/Finance/Expense\ Reports  PlanetGreen/Earth/Finance/Budgets
 tree
 cd PlanetGreen/Earth/Finance/Expense\ Reports/
-mkdir 2023
+mkdir PlanetGreen/Earth/Finance/Expense\ Reports/2023
 cd 2023
 mv ~/Git/DonnaLab/create_monthly_directories.sh .
+tree
+chmod 777 create_monthly_directories.sh
+./create_monthly_directories.sh
 tree
