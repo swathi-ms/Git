@@ -34,3 +34,10 @@ tree
 chmod 777 create_monthly_directories.sh
 ./create_monthly_directories.sh
 tree
+cd ~
+cd Git/DonnaLab/
+mkdir PlanetGreen/Earth/Finance/Budgets/proposed PlanetGreen/Earth/Finance/Budgets/Actual
+tree
+mkdir PlanetGreen/Earth/Operations
+mkdir PlanetGreen/Earth/Operations/Management PlanetGreen/Earth/Operations/Customer\ Care PlanetGreen/Earth/Operations/Sales
+tree
