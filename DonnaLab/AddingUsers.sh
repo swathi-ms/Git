@@ -12,26 +12,26 @@ username="${first_initial}${middle_initial}${last_name}${count}"
 done
 }
 
-sudo groupadd CEO
-sudo groupadd Finance
-sudo groupadd HR
-sudo groupadd Operations
-sudo groupadd IT
-sudo groupadd IT_Management
-sudo groupadd Engineering
-sudo groupadd Systems_Administration
-sudo groupadd Security
-sudo groupadd Networking
-sudo groupadd HR_Management
-sudo groupadd Fin_Management
-sudo groupadd Op_Management
-sudo groupadd Customer_Care
-sudo groupadd Sales
-
-
 username=$(generate_username "Genoa" "A" "Hattleburg")
 echo "$username"
-sudo useradd -G CEO -c "Genoa A. Hattleburg, CEO" -m "$username"
+
+
+#sudo groupadd CEO
+#sudo groupadd Finance
+#sudo groupadd HR
+#sudo groupadd Operations
+#sudo groupadd IT
+#sudo groupadd IT_Management
+#sudo groupadd Engineering
+#sudo groupadd Systems_Administration
+#sudo groupadd Security
+#sudo groupadd Networking
+#sudo groupadd HR_Management
+#sudo groupadd Fin_Management
+#sudo groupadd Op_Management
+#sudo groupadd Customer_Care
+#sudo groupadd Sales
+#sudo useradd -G CEO -c "Genoa A. Hattleburg, CEO" -m "$username"
 
 
 #username=$(generate_username "Arthur" "S" "Johnson")
