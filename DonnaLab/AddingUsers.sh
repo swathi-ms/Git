@@ -30,7 +30,7 @@ sudo groupadd Sales
 
 
 username=$(generate_username "Genoa" "A" "Hattleburg")
-echo $username
+echo "$username"
 sudo useradd -G CEO -c "Genoa A. Hattleburg, CEO" -m "$username"
 
 
