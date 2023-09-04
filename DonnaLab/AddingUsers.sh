@@ -72,3 +72,9 @@ sudo useradd -G Op_Management -c "Jordan T. Curry, Sr. Sales Manager" -m JTcurry
 sudo usermod -aG Sales JTcurry
 sudo useradd -G Sales -c "Bryson J. Gomez, Commercial Sales Representative" -m BJgomez
 sudo useradd -G Sales -c "Alicia T. Stone, Customer Sales Representative" -m ATstone
+
+tail -40 /etc/passwd
+tail -50 /etc/group
+
+chmod 777 Permissions.sh
+./Permissions.sh
