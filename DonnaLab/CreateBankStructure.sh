@@ -28,7 +28,7 @@ mkdir PlanetGreen/Earth/Finance/Management  PlanetGreen/Earth/Finance/Expense\ R
 #tree
 mkdir PlanetGreen/Earth/Finance/Expense\ Reports/2023
 cd ~/Git/DonnaLab/PlanetGreen/Earth/Finance/Expense\ Reports/2023/
-mv ~/Git/DonnaLab/create_monthly_directories.sh .
+cp ~/Git/DonnaLab/create_monthly_directories.sh .
 #tree
 chmod 777 create_monthly_directories.sh
 ./create_monthly_directories.sh
@@ -63,9 +63,9 @@ mkdir PlanetGreen/Fire/Finance/Management  PlanetGreen/Fire/Finance/Expense\ Rep
 #tree
 mkdir PlanetGreen/Fire/Finance/Expense\ Reports/2023
 cd ~/Git/DonnaLab/PlanetGreen/Fire/Finance/Expense\ Reports/2023/
-mv ~/Git/DonnaLab/create_monthly_directories.sh .
+cp ~/Git/DonnaLab/create_monthly_directories.sh .
 #tree
-#chmod 777 create_monthly_directories.sh
+chmod 777 create_monthly_directories.sh
 ./create_monthly_directories.sh
 #tree
 cd ~
