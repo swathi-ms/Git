@@ -30,11 +30,13 @@ sudo groupadd Sales
 
 
 username=$(generate_username "Genoa" "A" "Hattleburg")
-sudo useradd -G CEO -c "Genoa A. Hattleburg, CEO" -m $username
+echo $username
+sudo useradd -G CEO -c "Genoa A. Hattleburg, CEO" -m "$username"
 
-username=$(generate_username "Arthur" "S" "Johnson")
-sudo useradd -G Finance -c "Arthur S. Johnson, CFO" -m $username
-sudo groupadd CFO
+
+#username=$(generate_username "Arthur" "S" "Johnson")
+#sudo useradd -G Finance -c "Arthur S. Johnson, CFO" -m $username
+#sudo groupadd CFO
 
 #username=$(generate_username "Erika" "N" "Graham")
 #sudo useradd -G HR -c "Erika N. Graham, CHRO" -m $username
