@@ -13,13 +13,11 @@ done
 
 echo "$username"
 }
-
+full_name = "Genoa A. Hattleburg"
 username=$(generate_username "Genoa" "A" "Hattleburg")
-full_name="$first_name $middle_name $last_name"
-
+sudo useradd -c "$fullname" $username
 echo "Generated username: $username"
 echo "Full name: $full_name"
 sudo groupadd CEO
 sudo usermod -aG CEO $username
-tail -5 /etc/passwd
-cat /etc/group
+
