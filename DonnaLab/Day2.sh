@@ -42,5 +42,5 @@ sudo cp /etc/resolv.conf "Systems Administration/backup/"
 sudo cp /etc/hosts "Systems Administration/backup/"
 #sudo cp /etc/yum.conf "Systems Administration/backup/"
 
-cd PlanetGreen/Earth/IT/Systems\ Administration/backup
+cd ~/Git/DonnaLab/PlanetGreen/Earth/IT/Systems\ Administration/backup
 ls -l
