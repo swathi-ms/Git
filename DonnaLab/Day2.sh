@@ -32,9 +32,9 @@ groups ASjohnson
 sudo useradd -r -s /usr/sbin/nologin dev_TEST
 tail -1 /etc/passwd
 
-cd ~
-cd Git/DonnaLab/PlanetGreen/Earth/IT/Systems\ Administration/
-mkdir -p backup
+#cd ~
+#cd Git/DonnaLab/PlanetGreen/Earth/IT/Systems\ Administration/
+mkdir -p PlanetGreen/Earth/IT/Systems\ Administration/backup
 sudo cp /etc/shadow "Systems Administration/backup/"
 sudo cp /etc/sysconfig/network-scripts/ifcfg-* "Systems Administration/backup/"
 sudo cp /etc/resolv.conf "Systems Administration/backup/"
