@@ -35,8 +35,9 @@ tail -1 /etc/passwd
 #cd ~
 #cd Git/DonnaLab/PlanetGreen/Earth/IT/Systems\ Administration/
 mkdir -p PlanetGreen/Earth/IT/Systems\ Administration/backup
+cd PlanetGreen/Earth/IT
 sudo cp /etc/shadow "Systems Administration/backup/"
 sudo cp /etc/sysconfig/network-scripts/ifcfg-* "Systems Administration/backup/"
 sudo cp /etc/resolv.conf "Systems Administration/backup/"
 sudo cp /etc/hosts "Systems Administration/backup/"
-sudo cp /etc/yum.conf "Systems Administration/backup/"
+#sudo cp /etc/yum.conf "Systems Administration/backup/"
