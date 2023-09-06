@@ -46,7 +46,7 @@ cd ~/Git/DonnaLab/PlanetGreen/Earth/IT/Systems\ Administration/backup
 ls -l
 echo "Copying the .pem file from local devise to EC2 Instance"
 
-"C:\Users\v-smunikoti\Downloads\backupinstance.pem"
-"C:\Users\v-smunikoti\Downloads\instance.pem"
+#"C:\Users\v-smunikoti\Downloads\backupinstance.pem"
+#"C:\Users\v-smunikoti\Downloads\instance.pem"
 #scp -i /path/to/your-key.pem /path/to/local/file ec2-user@ec2-instance-ip:/path/to/remote/directory
 scp -i C:/Users/v-smunikoti/Downloads/instance.pem C:/Users/v-smunikoti/Downloads/backupinstance.pem ec2-user@ec2-34-220-106-16.us-west-2.compute.amazonaws.com:~/Git/DonnaLab
